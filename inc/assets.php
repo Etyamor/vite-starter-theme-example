@@ -51,7 +51,7 @@ add_action('wp_enqueue_scripts', function() use ($vite_is_production) {
             return $tag;
         }, 10, 2);
 
-        wp_enqueue_script('theme-scripts', VITE_THEME_DEV_SCRIPTS_PATH, [], null, true);
-        wp_enqueue_style('theme-styles', VITE_THEME_DEV_STYLES_PATH, [], null);
+        wp_enqueue_script('new-theme-scripts', VITE_THEME_DEV_SCRIPTS_PATH, [], null, true);
+        wp_enqueue_style('new-theme-styles', VITE_THEME_DEV_STYLES_PATH, [], null);
     }
 });

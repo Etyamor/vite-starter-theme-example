@@ -1,4 +1,4 @@
-# Vite Starter Theme
+# New Theme
 
 ![Screenshot](screenshot.png)
 
